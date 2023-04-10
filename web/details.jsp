@@ -4,11 +4,12 @@
 <html>
 <head>
     <%Long id= Long.parseLong(request.getParameter("task_id"));%>
-    <%@include file="head.jsp"%>>
+    <%@include file="head.jsp"%>
     <title>Task <%=id%></title>
 </head>
 <body>
-<%@include file="navbar.jsp"%>>
+
+<%@include file="navbar.jsp"%>
 <%
     Task task= DBManager.getTask(id);
     if (task!=null){

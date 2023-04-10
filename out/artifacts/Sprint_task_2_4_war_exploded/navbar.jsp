@@ -1,4 +1,4 @@
-<div class="container mb-3">
+<div class="mb-3">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="/"><%=siteName%></a>
